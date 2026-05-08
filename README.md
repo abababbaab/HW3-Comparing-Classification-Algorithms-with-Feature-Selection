@@ -5,7 +5,15 @@
 - number of samples: 946
 - number of classes: 4	OPEL, SAAB, BUS, VAN
 - number of features: 18
-- Class distribution (table or bar chart)
+- Class distribution
+
+| Class   | Count | Percentage |
+|---------|-------|------------|
+| bus     | 218   | 25.77%     |
+| saab    | 217   | 25.65%     |
+| opel    | 212   | 25.06%     |
+| van     | 199   | 23.52%     |
+| Total   | 846   | 100%       |
 ## 2. Preprocessing
 - Data has no missing values 
 - Encoded only y because data is already in numbers
