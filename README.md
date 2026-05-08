@@ -26,6 +26,7 @@
 | KNN                 | 0.7127        | 0.0461  |
 | Gaussian NB         | 0.4575        | 0.0533  |
 | Neural Network      | 0.8447        | 0.0370  |
+
 The most accurate algorithm is definitly the neural network with the closes algorithm at -5%, but the downside is that the runtime gets very long. The 5% difference is alright significant but the 10 times more runtime is not worth that much extra time.
 ## 4. Part 3 — Feature Selection
 - I used Forward/Backward Selection search method because my number of features are 18. With this many features the Exhaustive Search would have taken the already long run time(4 hrs) to a ridiculous amount.
